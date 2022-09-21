@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/drawable/background1.xml" value="0.143" />
+        <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/drawable/background2.xml" value="0.15" />
+        <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/drawable/border.xml" value="0.171" />
+        <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/drawable/dashboard2.xml" value="0.171" />
+        <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/drawable/ic_baseline_adjust_24.xml" value="0.143" />
+        <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/drawable/ic_baseline_circle_24.xml" value="0.143" />
+        <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/drawable/ic_baseline_queue_music_24.xml" value="0.143" />
+        <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/drawable/ic_launcher_background.xml" value="0.171" />
+        <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/drawable/ic_outline_stop_circle_24.xml" value="0.143" />
+        <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/drawable/ic_outline_watch_later_24.xml" value="0.143" />
+        <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/drawable/logo.xml" value="0.171" />
+        <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/drawable/logo_background.xml" value="0.171" />
+        <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/drawable/record1.xml" value="0.143" />
+        <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/drawable/signin_background.xml" value="0.171" />
+        <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/drawable/signup_button_background.xml" value="0.171" />
+        <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/drawable/wifi.xml" value="0.171" />
+        <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/layout/add_playlist.xml" value="0.25" />
+        <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/layout/dashboard.xml" value="0.18" />
+        <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/layout/dashboard2.xml" value="0.17074275362318841" />
+        <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/layout/logo.xml" value="0.17074275362318841" />
+        <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/layout/main_page.xml" value="0.17074275362318841" />
+        <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/layout/record1.xml" value="0.17074275362318841" />
+        <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/layout/record2.xml" value="0.2" />
+        <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/layout/sign_in.xml" value="0.25" />
+        <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/layout/sign_up.xml" value="0.22" />
+        <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/layout/sign_up2.xml" value="0.22" />
+        <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/layout/song_tiltle.xml" value="0.22" />
+        <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/layout/upload_music.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
