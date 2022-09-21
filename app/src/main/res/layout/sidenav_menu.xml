@@ -10,6 +10,11 @@
     android:background="#000"
     tools:context=".MainActivity">
 
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:background="#402B24"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"/>
+
     <LinearLayout
         android:layout_weight="0.04"
         android:layout_width="match_parent"
