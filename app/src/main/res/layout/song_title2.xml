@@ -81,45 +81,33 @@
         android:orientation="horizontal">
 
         <LinearLayout
-            android:layout_weight="0.2"
-            android:layout_width="0dp"
-            android:layout_height="match_parent">
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingLeft="10dp">
-
-                <ImageView
-                    android:layout_width="60dp"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/ic_baseline_arrow_back_24"/>
-
-            </RelativeLayout>
-
-        </LinearLayout>
-
-        <LinearLayout
             android:layout_weight="0.8"
             android:layout_width="0dp"
             android:layout_height="match_parent">
 
-            <RelativeLayout
+            <TextView
+                android:paddingLeft="18dp"
+                android:gravity="left"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:gravity="left">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="Song Title"
-                    android:textSize="33dp"
-                    android:textStyle="bold"
-                    android:textColor="#ffffff"/>
-
-            </RelativeLayout>
+                android:text="Song Title"
+                android:textSize="33dp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"/>
 
         </LinearLayout>
+
+        <RelativeLayout
+            android:layout_weight="0.2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_baseline_arrow_drop_down_24"/>
+
+        </RelativeLayout>
 
     </LinearLayout>
 
@@ -138,122 +126,6 @@
             android:textSize="25dp"/>
 
     </RelativeLayout>
-
-    <LinearLayout
-        android:layout_weight="0.608"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:weightSum="1"
-        android:padding="15dp"
-        android:orientation="vertical">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="0.7"
-            android:orientation="vertical"
-            android:weightSum="1"
-            android:gravity="center">
-
-            <LinearLayout
-                android:layout_weight="0.2"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:weightSum="1"
-                android:paddingBottom="5dp"
-                android:orientation="horizontal">
-
-                <RelativeLayout
-                    android:layout_weight="0.2"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:src="@drawable/ic_outline_account_circle_24"/>
-
-                </RelativeLayout>
-
-                <RelativeLayout
-                    android:layout_weight="0.8"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:src="@drawable/background1"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:text="What an amazing song"
-                        android:textColor="#ffffff"
-                        android:textSize="20dp"
-                        android:paddingLeft="25dp"
-                        android:paddingTop="13dp"/>
-
-                </RelativeLayout>
-
-            </LinearLayout>
-
-        </LinearLayout>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_weight="0.085"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:weightSum="1"
-        android:paddingBottom="12dp"
-        android:paddingRight="7dp"
-        android:orientation="horizontal">
-
-        <RelativeLayout
-            android:layout_weight="0.85"
-            android:layout_width="0dp"
-            android:layout_height="match_parent">
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingLeft="10dp"
-                android:paddingRight="5dp"
-                android:src="@drawable/background1"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Post a comment"
-                android:textColor="#ffffff"
-                android:textSize="20dp"
-                android:paddingLeft="35dp"
-                android:paddingTop="10dp"/>
-
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:layout_weight="0.15"
-            android:layout_width="0dp"
-            android:layout_height="match_parent">
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/background1"/>
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@drawable/ic_baseline_play_arrow_24"
-                android:adjustViewBounds="true"
-                android:scaleType="centerCrop"/>
-
-        </RelativeLayout>
-
-    </LinearLayout>
 
     <LinearLayout
         android:layout_weight="0.125"
