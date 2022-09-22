@@ -105,10 +105,10 @@
             android:layout_height="match_parent">
 
                 <TextView
-                    android:gravity="left"
+                    android:gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Record"
+                    android:text="Select Playlist"
                     android:textSize="33dp"
                     android:textStyle="bold"
                     android:textColor="#ffffff"/>
@@ -136,104 +136,63 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_weight="0.35"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:gravity="center">
+        android:weightSum="1"
+        android:paddingTop="200dp"
+        android:orientation="vertical"
+        android:layout_weight="0.55">
 
-        <RelativeLayout
-            android:gravity="center"
-            android:layout_width="250dp"
-            android:layout_height="250dp">
+        <LinearLayout
+            android:layout_weight="0.75"
+            android:layout_width="match_parent"
+            android:weightSum="1"
+            android:orientation="horizontal"
+            android:layout_height="0dp">
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:paddingLeft="7dp"
                 android:layout_height="match_parent"
-                app:cardCornerRadius="30dp"
-                android:layout_margin="5dp">
+                android:layout_weight="0.33">
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@drawable/cover"/>
+                    android:src="@drawable/yellow_rectangle"/>
 
-            </androidx.cardview.widget.CardView>
+            </RelativeLayout>
 
-        </RelativeLayout>
+        </LinearLayout>
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_weight="0.4"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_weight="0.2"
         android:weightSum="1"
-        android:orientation="vertical">
+        android:gravity="right"
+        android:orientation="horizontal">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:paddingTop="25dp"
-            android:layout_height="0dp"
-            android:layout_weight="0.4">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="0.3">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:weightSum="1"
-                android:orientation="vertical">
+            <ImageView
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:src="@drawable/circle_yellow"/>
 
-                <RelativeLayout
-                    android:layout_weight="0.345"
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp">
+            <ImageView
+                android:padding="22.5dp"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:src="@drawable/ic_baseline_add2_24"/>
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:text="0:00 /2:45"
-                        android:gravity="center"
-                        android:textSize="18dp"
-                        android:textColor="#D3B42A"/>
-
-                </RelativeLayout>
-
-                <LinearLayout
-                    android:layout_weight="0.655"
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:gravity="center"
-                    android:weightSum="1"
-                    android:orientation="horizontal">
-
-                    <LinearLayout
-                        android:layout_width="60dp"
-                        android:layout_height="60dp">
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:src="@drawable/ic_baseline_adjust_24"/>
-
-                    </LinearLayout>
-
-
-                    <LinearLayout
-                        android:layout_width="60dp"
-                        android:layout_height="60dp">
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:src="@drawable/ic_baseline_play_arrow_24"/>
-
-                    </LinearLayout>
-
-                </LinearLayout>
-
-
-            </LinearLayout>
-
-        </LinearLayout>
+        </RelativeLayout>
 
     </LinearLayout>
 
@@ -287,7 +246,7 @@
         <LinearLayout
             android:layout_weight="0.25"
             android:layout_width="0dp"
-            android:background="#000"
+            android:background="#27252A"
             android:layout_height="match_parent"
             android:weightSum="1"
             android:orientation="vertical">

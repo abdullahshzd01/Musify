@@ -6,7 +6,9 @@
         <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/drawable/background1.xml" value="0.143" />
         <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/drawable/background2.xml" value="0.15" />
         <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/drawable/border.xml" value="0.171" />
+        <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/drawable/circle_yellow.xml" value="0.143" />
         <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/drawable/dashboard2.xml" value="0.171" />
+        <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.143" />
         <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/drawable/ic_baseline_adjust_24.xml" value="0.143" />
         <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/drawable/ic_baseline_circle_24.xml" value="0.143" />
         <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/drawable/ic_baseline_queue_music_24.xml" value="0.143" />
@@ -21,6 +23,7 @@
         <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/drawable/song_play_bar.xml" value="0.143" />
         <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/drawable/song_play_bar_played.xml" value="0.143" />
         <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/drawable/wifi.xml" value="0.171" />
+        <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/drawable/yellow_rectangle.xml" value="0.143" />
         <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/layout/add_playlist.xml" value="0.25" />
         <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/layout/dashboard.xml" value="0.18" />
@@ -31,6 +34,7 @@
         <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/layout/record2.xml" value="0.2" />
         <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/layout/record3.xml" value="0.25" />
         <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/layout/record4.xml" value="0.2" />
+        <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/layout/select_playlist.xml" value="0.15" />
         <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/layout/sidenav_menu.xml" value="0.21" />
         <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/layout/sign_in.xml" value="0.25" />
         <entry key="..\:/FAST NUCES/Cs/Semester 7/SMD/Assignments/#01/i192012/app/src/main/res/layout/sign_up.xml" value="0.22" />
