@@ -24,5 +24,15 @@ public class MainActivity extends AppCompatActivity {
             }
         }, 5000);
 
+//        setContentView(R.layout.activity_main);
+//
+//        Button next = (Button) findViewById(R.id.button1);
+//        next.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                setContentView(R.layout.main_page);
+//            }
+//        });
+
     }
 }
