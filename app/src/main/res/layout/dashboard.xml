@@ -8,6 +8,7 @@
     android:weightSum="1"
     android:orientation="vertical"
     android:background="#000"
+    android:id="@+id/dshbrd"
     tools:context=".MainActivity">
 
     <LinearLayout
