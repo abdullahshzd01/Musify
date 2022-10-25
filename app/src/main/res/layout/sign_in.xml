@@ -76,16 +76,20 @@
         android:layout_weight="0.06"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:paddingTop="7dp"
-        android:paddingRight="17dp">
+        android:paddingTop="5dp"
+        android:gravity="right"
+        android:paddingRight="15dp">
 
-        <TextView
-            android:layout_width="match_parent"
+        <Button
+            android:layout_width="130dp"
             android:gravity="right"
             android:text="Sign Up"
             android:textColor="@color/white"
             android:textSize="25dp"
             android:textStyle="bold"
+            android:background="#000"
+            android:textAllCaps="false"
+            android:id="@+id/to_signUp"
             android:layout_height="match_parent"/>
 
     </RelativeLayout>
@@ -156,12 +160,14 @@
                     android:layout_height="match_parent"
                     android:src="@drawable/signin_background"/>
 
-                <TextView
+                <EditText
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:paddingLeft="20dp"
                     android:paddingTop="10dp"
-                    android:text="Email"
+                    android:inputType="textEmailAddress"
+                    android:hint="Email"
+                    android:id="@+id/mail_in"
                     android:textColor="#D3B42A"
                     android:textSize="20dp" />
 
@@ -178,24 +184,26 @@
                     android:layout_height="match_parent"
                     android:src="@drawable/signin_background"/>
 
-                <TextView
+                <EditText
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:paddingTop="10dp"
                     android:paddingLeft="20dp"
                     android:textSize="20dp"
+                    android:inputType="numberPassword"
                     android:textColor="#D3B42A"
-                    android:text="Password"/>
+                    android:id="@+id/pass_in"
+                    android:hint="Password"/>
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="right"
-                    android:paddingTop="10dp"
-                    android:paddingRight="20dp"
-                    android:textSize="20dp"
-                    android:textColor="#D3B42A"
-                    android:text="Show"/>
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:gravity="right"-->
+<!--                    android:paddingTop="10dp"-->
+<!--                    android:paddingRight="20dp"-->
+<!--                    android:textSize="20dp"-->
+<!--                    android:textColor="#D3B42A"-->
+<!--                    android:text="Show"/>-->
 
             </RelativeLayout>
 
@@ -222,17 +230,14 @@
                     android:layout_height="0dp"
                     android:padding="5dp">
 
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:src="@drawable/signup_button_background"/>
-
-                    <TextView
+                    <Button
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="Sign In"
                         android:gravity="center"
                         android:textStyle="bold"
+                        android:background="@drawable/signup_button_background"
+                        android:textAllCaps="false"
                         android:textSize="22dp"
                         android:textColor="@color/white"/>
 

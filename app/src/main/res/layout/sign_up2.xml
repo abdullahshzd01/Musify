@@ -87,8 +87,9 @@
             android:textColor="@color/white"
             android:textSize="25dp"
             android:background="#000"
+            android:textAllCaps="false"
             android:textStyle="bold"
-            android:id="@+id/to_signIn"
+            android:id="@+id/to_signIn2"
             android:layout_height="match_parent"/>
 
     </RelativeLayout>
