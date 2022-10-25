@@ -239,6 +239,7 @@
                         android:background="@drawable/signup_button_background"
                         android:textAllCaps="false"
                         android:textSize="22dp"
+                        android:id="@+id/signIn"
                         android:textColor="@color/white"/>
 
                 </RelativeLayout>

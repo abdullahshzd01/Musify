@@ -11,7 +11,7 @@ import android.widget.Button;
 import androidx.annotation.Nullable;
 
 public class SignIn extends Activity {
-    Button to_signUp;
+    Button to_signUp, signIn;
     Handler handler;
 
     @Override
@@ -20,6 +20,7 @@ public class SignIn extends Activity {
         setContentView(R.layout.sign_in);
 
         to_signUp = findViewById(R.id.to_signUp);
+        signIn = findViewById(R.id.signIn);
 
         to_signUp.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -32,6 +33,20 @@ public class SignIn extends Activity {
                         startActivity(myIntent);
                     }
                 }, 0);
+            }
+        });
+
+        signIn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                handler = new Handler(Looper.getMainLooper());
+                handler.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        Intent myIntent = new Intent(SignIn.this, DashBoard.class);
+                        startActivity(myIntent);
+                    }
+                }, 2000);
             }
         });
     }
