@@ -713,6 +713,7 @@
                     </LinearLayout>
 
                 </LinearLayout>
+
                 </LinearLayout>
 
             </RelativeLayout>
@@ -722,13 +723,136 @@
                 android:background="#4B3829"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:gravity="center">
+                android:weightSum="1"
+                android:orientation="vertical">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Hello D33r"
-                    android:textColor="@color/white"/>
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Hello D33r"-->
+<!--                    android:textColor="@color/white"/>-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.4"
+                    android:weightSum="1"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            app:cardCornerRadius="100dp">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:gravity="center"
+                        android:layout_weight="0.2">
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:text="User Name"
+                            android:textColor="#D3B42A"
+                            android:gravity="center"
+                            android:textSize="30dp"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.2"
+                    android:weightSum="1"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.5"
+                        android:paddingLeft="35dp"
+                        android:paddingTop="15dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/edtPrf"
+                            android:text="Edit Profile"
+                            android:textSize="30dp"
+                            android:textStyle="bold"
+                            android:textColor="#D3B42A"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.5"
+                        android:paddingLeft="35dp"
+                        android:paddingTop="15dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/chngPass"
+                            android:text="Change Password"
+                            android:textSize="30dp"
+                            android:textStyle="bold"
+                            android:textColor="#D3B42A"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.4"
+                    android:gravity="center"
+                    android:weightSum="1"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.4"
+                        android:paddingTop="50dp"
+                        android:paddingLeft="50dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Log out"
+                            android:textSize="25dp"
+                            android:textColor="#D3B42A"/>
+
+                        <ImageView
+                            android:paddingLeft="-30dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:id="@+id/log_out"
+                            android:src="@drawable/ic_baseline_logout_24"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
 
             </LinearLayout>
 
