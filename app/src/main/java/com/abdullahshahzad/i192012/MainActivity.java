@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run() {
                 Intent myIntent = new Intent(MainActivity.this, SignUp.class);
+//                Intent myIntent = new Intent(MainActivity.this, Activity_test.class);
                 startActivity(myIntent);
             }
         }, 5000);

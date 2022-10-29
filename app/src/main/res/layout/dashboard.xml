@@ -1,704 +1,737 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:weightSum="1"
-    android:orientation="vertical"
-    android:background="#000"
     android:id="@+id/dshbrd"
     tools:context=".MainActivity">
 
-    <LinearLayout
-        android:layout_weight="0.04"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:weightSum="1"
-        android:padding="1dp"
-        android:baselineAligned="false"
-        android:orientation="horizontal">
-
-        <RelativeLayout
-            android:layout_weight="0.5"
-            android:layout_width="0dp"
-            android:layout_height="match_parent">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="9:41"
-                android:textColor="@color/white"
-                android:gravity="left"
-                android:paddingLeft="35dp"
-                android:textStyle="bold"
-                android:textSize="25dp"/>
-
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:layout_weight="0.5"
-            android:layout_width="0dp"
-            android:layout_height="match_parent">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingRight="15dp"
-                android:gravity="right">
-
-                <ImageView
-                    android:padding="1dp"
-                    android:layout_width="30dp"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/ic_baseline_signal_cellular_alt_24"/>
-
-                <ImageView
-                    android:padding="1dp"
-                    android:layout_width="30dp"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/ic_baseline_wifi_24"/>
-
-                <ImageView
-                    android:rotation="90"
-                    android:padding="1dp"
-                    android:layout_width="30dp"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/ic_baseline_battery_full_24"/>
-
-            </LinearLayout>
-
-        </RelativeLayout>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_weight="0.07"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:paddingTop="10dp"
-        android:weightSum="1"
-        android:orientation="horizontal">
-
-        <LinearLayout
-            android:layout_weight="0.5"
-            android:layout_width="0dp"
-            android:layout_height="match_parent">
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingLeft="20dp"
-                android:gravity="left">
-
-                <ImageView
-                    android:layout_width="60dp"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/ic_baseline_menu_24"/>
-
-            </RelativeLayout>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_weight="0.5"
-            android:layout_width="0dp"
-            android:layout_height="match_parent">
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="right">
-
-                <ImageView
-                    android:layout_width="70dp"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/ic_outline_account_circle_24"/>
-
-            </RelativeLayout>
-
-        </LinearLayout>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_weight="0.685"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:weightSum="1"
-        android:padding="15dp"
-        android:orientation="vertical">
-
-        <LinearLayout
-            android:layout_weight="0.5"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:paddingBottom="5dp"
-            android:weightSum="1"
-            android:orientation="vertical"
-            android:gravity="center">
-
-            <RelativeLayout
-                android:layout_weight="0.25"
-                android:layout_width="match_parent"
-                android:layout_height="0dp">
-
-                <TextView
-                    android:paddingTop="10dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="Playlists"
-                    android:textSize="32dp"
-                    android:textStyle="bold"
-                    android:textColor="#ffffff"/>
-
-            </RelativeLayout>
-
-            <LinearLayout
-                android:layout_weight="0.7"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:weightSum="1"
-                android:orientation="horizontal">
-
-                <LinearLayout
-                    android:layout_weight="0.3333333333333333"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:weightSum="1"
-                    android:orientation="vertical">
-
-                    <RelativeLayout
-                        android:layout_weight="0.8"
-                        android:layout_width="match_parent"
-                        android:layout_height="0dp">
-
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            app:cardCornerRadius="30dp"
-                            android:layout_margin="5dp">
-
-                            <ImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:src="@drawable/playlist"/>
-
-                        </androidx.cardview.widget.CardView>
-
-                    </RelativeLayout>
-
-                    <RelativeLayout
-                        android:layout_weight="0.2"
-                        android:layout_width="match_parent"
-                        android:layout_height="0dp">
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:textSize="25dp"
-                            android:textColor="#D3B42A"
-                            android:text="Playlist 1"/>
-
-                    </RelativeLayout>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_weight="0.3333333333333333"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:weightSum="1"
-                    android:orientation="vertical">
-
-                    <RelativeLayout
-                        android:layout_weight="0.8"
-                        android:layout_width="match_parent"
-                        android:layout_height="0dp">
-
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            app:cardCornerRadius="30dp"
-                            android:layout_margin="5dp">
-
-                            <ImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:src="@drawable/playlist"/>
-
-                        </androidx.cardview.widget.CardView>
-
-                    </RelativeLayout>
-
-                    <RelativeLayout
-                        android:layout_weight="0.2"
-                        android:layout_width="match_parent"
-                        android:layout_height="0dp">
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:textSize="25dp"
-                            android:textColor="#D3B42A"
-                            android:text="Playlist 2"/>
-
-                    </RelativeLayout>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_weight="0.3333333333333333"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:weightSum="1"
-                    android:orientation="vertical">
-
-                    <RelativeLayout
-                        android:layout_weight="0.8"
-                        android:layout_width="match_parent"
-                        android:layout_height="0dp">
-
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            app:cardCornerRadius="30dp"
-                            android:layout_margin="5dp">
-
-                            <ImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:src="@drawable/playlist"/>
-
-                        </androidx.cardview.widget.CardView>
-
-                    </RelativeLayout>
-
-                    <RelativeLayout
-                        android:layout_weight="0.2"
-                        android:layout_width="match_parent"
-                        android:layout_height="0dp">
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:textSize="25dp"
-                            android:textColor="#D3B42A"
-                            android:text="Playlist 3"/>
-
-                    </RelativeLayout>
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_weight="0.5"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:paddingBottom="5dp"
-            android:weightSum="1"
-            android:orientation="vertical"
-            android:gravity="center">
-
-            <RelativeLayout
-                android:layout_weight="0.25"
-                android:layout_width="match_parent"
-                android:layout_height="0dp">
-
-                <TextView
-                    android:paddingTop="10dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="Artists"
-                    android:textSize="32dp"
-                    android:textStyle="bold"
-                    android:textColor="#ffffff"/>
-
-            </RelativeLayout>
-
-            <LinearLayout
-                android:layout_weight="0.7"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:weightSum="1"
-                android:orientation="horizontal">
-
-                <LinearLayout
-                    android:layout_weight="0.3333333333333333"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:weightSum="1"
-                    android:orientation="vertical">
-
-                    <RelativeLayout
-                        android:layout_weight="0.8"
-                        android:layout_width="match_parent"
-                        android:layout_height="0dp">
-
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            app:cardCornerRadius="30dp"
-                            android:layout_margin="5dp">
-
-                            <ImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:src="@drawable/artist"/>
-
-                        </androidx.cardview.widget.CardView>
-
-                    </RelativeLayout>
-
-                    <RelativeLayout
-                        android:layout_weight="0.2"
-                        android:layout_width="match_parent"
-                        android:layout_height="0dp">
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:textSize="25dp"
-                            android:textColor="#D3B42A"
-                            android:text="Artist 1"/>
-
-                    </RelativeLayout>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_weight="0.3333333333333333"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:weightSum="1"
-                    android:orientation="vertical">
-
-                    <RelativeLayout
-                        android:layout_weight="0.8"
-                        android:layout_width="match_parent"
-                        android:layout_height="0dp">
-
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            app:cardCornerRadius="30dp"
-                            android:layout_margin="5dp">
-
-                            <ImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:src="@drawable/artist"/>
-
-                        </androidx.cardview.widget.CardView>
-
-                    </RelativeLayout>
-
-                    <RelativeLayout
-                        android:layout_weight="0.2"
-                        android:layout_width="match_parent"
-                        android:layout_height="0dp">
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:textSize="25dp"
-                            android:textColor="#D3B42A"
-                            android:text="Artist 2"/>
-
-                    </RelativeLayout>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_weight="0.3333333333333333"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:weightSum="1"
-                    android:orientation="vertical">
-
-                    <RelativeLayout
-                        android:layout_weight="0.8"
-                        android:layout_width="match_parent"
-                        android:layout_height="0dp">
-
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            app:cardCornerRadius="30dp"
-                            android:layout_margin="5dp">
-
-                            <ImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:src="@drawable/artist"/>
-
-                        </androidx.cardview.widget.CardView>
-
-                    </RelativeLayout>
-
-                    <RelativeLayout
-                        android:layout_weight="0.2"
-                        android:layout_width="match_parent"
-                        android:layout_height="0dp">
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:textSize="25dp"
-                            android:textColor="#D3B42A"
-                            android:text="Artist 3"/>
-
-                    </RelativeLayout>
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-        </LinearLayout>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_weight="0.08"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:weightSum="1"
-        android:orientation="horizontal">
-
-        <RelativeLayout
+        <androidx.drawerlayout.widget.DrawerLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/border"/>
-
-            <TextView
-                android:paddingLeft="15dp"
-                android:gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="Song Name"
-                android:textStyle="bold"
-                android:textSize="18dp"
-                android:textColor="#D3B42A"/>
-
-            <ImageView
-                android:paddingLeft="118dp"
-                android:paddingTop="10dp"
-                android:paddingBottom="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/ic_baseline_skip_previous_24"/>
-
-            <ImageView
-                android:paddingLeft="140dp"
-                android:paddingTop="10dp"
-                android:paddingBottom="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/ic_baseline_fast_rewind_24"/>
-
-            <ImageView
-                android:paddingLeft="235dp"
-                android:paddingTop="10dp"
-                android:paddingBottom="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/ic_baseline_play_arrow_24"/>
-
-            <ImageView
-                android:paddingLeft="325dp"
-                android:paddingTop="10dp"
-                android:paddingBottom="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/ic_baseline_fast_forward_24"/>
-
-            <ImageView
-                android:paddingLeft="347dp"
-                android:paddingTop="10dp"
-                android:paddingBottom="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/ic_baseline_skip_next_24"/>
-
-        </RelativeLayout>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_weight="0.125"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:orientation="horizontal"
-        android:weightSum="1">
-
-        <LinearLayout
-            android:layout_weight="0.25"
-            android:layout_width="0dp"
-            android:background="#27252A"
-            android:layout_height="match_parent"
-            android:weightSum="1"
-            android:orientation="vertical">
-
             <RelativeLayout
-                android:layout_weight="0.6"
                 android:layout_width="match_parent"
-                android:layout_height="0dp">
+                android:layout_height="match_parent"
+                android:background="#000">
 
-                <ImageView
-                    android:paddingTop="15dp"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@drawable/like"/>
+                    android:weightSum="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_weight="0.04"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:weightSum="1"
+                        android:padding="1dp"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:layout_weight="0.5"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="9:41"
+                                android:textColor="@color/white"
+                                android:gravity="left"
+                                android:paddingLeft="35dp"
+                                android:textStyle="bold"
+                                android:textSize="25dp"/>
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_weight="0.5"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:paddingRight="15dp"
+                                android:gravity="right">
+
+                                <ImageView
+                                    android:padding="1dp"
+                                    android:layout_width="30dp"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/ic_baseline_signal_cellular_alt_24"/>
+
+                                <ImageView
+                                    android:padding="1dp"
+                                    android:layout_width="30dp"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/ic_baseline_wifi_24"/>
+
+                                <ImageView
+                                    android:rotation="90"
+                                    android:padding="1dp"
+                                    android:layout_width="30dp"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/ic_baseline_battery_full_24"/>
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="0.07"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:paddingTop="10dp"
+                        android:weightSum="1"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_weight="0.5"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:paddingLeft="20dp"
+                                android:gravity="left">
+
+                                <ImageView
+                                    android:layout_width="60dp"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/ic_baseline_menu_24"/>
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_weight="0.5"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="right">
+
+                                <ImageView
+                                    android:layout_width="70dp"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/ic_outline_account_circle_24"/>
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="0.685"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:weightSum="1"
+                        android:padding="15dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_weight="0.5"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:paddingBottom="5dp"
+                            android:weightSum="1"
+                            android:orientation="vertical"
+                            android:gravity="center">
+
+                            <RelativeLayout
+                                android:layout_weight="0.25"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp">
+
+                                <TextView
+                                    android:paddingTop="10dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="Playlists"
+                                    android:textSize="32dp"
+                                    android:textStyle="bold"
+                                    android:textColor="#ffffff"/>
+
+                            </RelativeLayout>
+
+                            <LinearLayout
+                                android:layout_weight="0.7"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:weightSum="1"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_weight="0.3333333333333333"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:weightSum="1"
+                                    android:orientation="vertical">
+
+                                    <RelativeLayout
+                                        android:layout_weight="0.8"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="0dp">
+
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            app:cardCornerRadius="30dp"
+                                            android:layout_margin="5dp">
+
+                                            <ImageView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:src="@drawable/playlist"/>
+
+                                        </androidx.cardview.widget.CardView>
+
+                                    </RelativeLayout>
+
+                                    <RelativeLayout
+                                        android:layout_weight="0.2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="0dp">
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:textSize="25dp"
+                                            android:textColor="#D3B42A"
+                                            android:text="Playlist 1"/>
+
+                                    </RelativeLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_weight="0.3333333333333333"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:weightSum="1"
+                                    android:orientation="vertical">
+
+                                    <RelativeLayout
+                                        android:layout_weight="0.8"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="0dp">
+
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            app:cardCornerRadius="30dp"
+                                            android:layout_margin="5dp">
+
+                                            <ImageView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:src="@drawable/playlist"/>
+
+                                        </androidx.cardview.widget.CardView>
+
+                                    </RelativeLayout>
+
+                                    <RelativeLayout
+                                        android:layout_weight="0.2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="0dp">
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:textSize="25dp"
+                                            android:textColor="#D3B42A"
+                                            android:text="Playlist 2"/>
+
+                                    </RelativeLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_weight="0.3333333333333333"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:weightSum="1"
+                                    android:orientation="vertical">
+
+                                    <RelativeLayout
+                                        android:layout_weight="0.8"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="0dp">
+
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            app:cardCornerRadius="30dp"
+                                            android:layout_margin="5dp">
+
+                                            <ImageView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:src="@drawable/playlist"/>
+
+                                        </androidx.cardview.widget.CardView>
+
+                                    </RelativeLayout>
+
+                                    <RelativeLayout
+                                        android:layout_weight="0.2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="0dp">
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:textSize="25dp"
+                                            android:textColor="#D3B42A"
+                                            android:text="Playlist 3"/>
+
+                                    </RelativeLayout>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_weight="0.5"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:paddingBottom="5dp"
+                            android:weightSum="1"
+                            android:orientation="vertical"
+                            android:gravity="center">
+
+                            <RelativeLayout
+                                android:layout_weight="0.25"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp">
+
+                                <TextView
+                                    android:paddingTop="10dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="Artists"
+                                    android:textSize="32dp"
+                                    android:textStyle="bold"
+                                    android:textColor="#ffffff"/>
+
+                            </RelativeLayout>
+
+                            <LinearLayout
+                                android:layout_weight="0.7"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:weightSum="1"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_weight="0.3333333333333333"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:weightSum="1"
+                                    android:orientation="vertical">
+
+                                    <RelativeLayout
+                                        android:layout_weight="0.8"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="0dp">
+
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            app:cardCornerRadius="30dp"
+                                            android:layout_margin="5dp">
+
+                                            <ImageView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:src="@drawable/artist"/>
+
+                                        </androidx.cardview.widget.CardView>
+
+                                    </RelativeLayout>
+
+                                    <RelativeLayout
+                                        android:layout_weight="0.2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="0dp">
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:textSize="25dp"
+                                            android:textColor="#D3B42A"
+                                            android:text="Artist 1"/>
+
+                                    </RelativeLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_weight="0.3333333333333333"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:weightSum="1"
+                                    android:orientation="vertical">
+
+                                    <RelativeLayout
+                                        android:layout_weight="0.8"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="0dp">
+
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            app:cardCornerRadius="30dp"
+                                            android:layout_margin="5dp">
+
+                                            <ImageView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:src="@drawable/artist"/>
+
+                                        </androidx.cardview.widget.CardView>
+
+                                    </RelativeLayout>
+
+                                    <RelativeLayout
+                                        android:layout_weight="0.2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="0dp">
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:textSize="25dp"
+                                            android:textColor="#D3B42A"
+                                            android:text="Artist 2"/>
+
+                                    </RelativeLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_weight="0.3333333333333333"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:weightSum="1"
+                                    android:orientation="vertical">
+
+                                    <RelativeLayout
+                                        android:layout_weight="0.8"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="0dp">
+
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            app:cardCornerRadius="30dp"
+                                            android:layout_margin="5dp">
+
+                                            <ImageView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:src="@drawable/artist"/>
+
+                                        </androidx.cardview.widget.CardView>
+
+                                    </RelativeLayout>
+
+                                    <RelativeLayout
+                                        android:layout_weight="0.2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="0dp">
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:textSize="25dp"
+                                            android:textColor="#D3B42A"
+                                            android:text="Artist 3"/>
+
+                                    </RelativeLayout>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="0.08"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:weightSum="1"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/border"/>
+
+                            <TextView
+                                android:paddingLeft="15dp"
+                                android:gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="Song Name"
+                                android:textStyle="bold"
+                                android:textSize="18dp"
+                                android:textColor="#D3B42A"/>
+
+                            <ImageView
+                                android:paddingLeft="118dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/ic_baseline_skip_previous_24"/>
+
+                            <ImageView
+                                android:paddingLeft="140dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/ic_baseline_fast_rewind_24"/>
+
+                            <ImageView
+                                android:paddingLeft="235dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/ic_baseline_play_arrow_24"/>
+
+                            <ImageView
+                                android:paddingLeft="325dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/ic_baseline_fast_forward_24"/>
+
+                            <ImageView
+                                android:paddingLeft="347dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/ic_baseline_skip_next_24"/>
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                    android:layout_weight="0.125"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:layout_weight="0.25"
+                        android:layout_width="0dp"
+                        android:background="#27252A"
+                        android:layout_height="match_parent"
+                        android:weightSum="1"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_weight="0.6"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp">
+
+                            <ImageView
+                                android:paddingTop="15dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/like"/>
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_weight="0.4"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp">
+
+                            <TextView
+                                android:paddingBottom="15dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="Liked"
+                                android:textColor="#ffffff"
+                                android:textStyle="normal"
+                                android:textSize="18dp"/>
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="0.25"
+                        android:layout_width="0dp"
+                        android:background="#27252A"
+                        android:layout_height="match_parent"
+                        android:weightSum="1"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_weight="0.6"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp">
+
+                            <ImageView
+                                android:paddingTop="15dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/ic_baseline_add_24"/>
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_weight="0.4"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp">
+
+                            <TextView
+                                android:paddingBottom="15dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="Add"
+                                android:textColor="#ffffff"
+                                android:textStyle="normal"
+                                android:textSize="18dp"/>
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="0.25"
+                        android:layout_width="0dp"
+                        android:background="#27252A"
+                        android:layout_height="match_parent"
+                        android:weightSum="1"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_weight="0.6"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp">
+
+                            <ImageView
+                                android:paddingTop="15dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/ic_baseline_search_24"/>
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_weight="0.4"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp">
+
+                            <TextView
+                                android:paddingBottom="15dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="Search"
+                                android:textColor="#ffffff"
+                                android:textStyle="normal"
+                                android:textSize="18dp"/>
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="0.25"
+                        android:layout_width="0dp"
+                        android:background="#27252A"
+                        android:layout_height="match_parent"
+                        android:weightSum="1"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_weight="0.6"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp">
+
+                            <ImageView
+                                android:paddingTop="15dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/ic_outline_watch_later_24"/>
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_weight="0.4"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp">
+
+                            <TextView
+                                android:paddingBottom="15dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="Listen Later"
+                                android:textColor="#ffffff"
+                                android:textStyle="normal"
+                                android:textSize="18dp"/>
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                </LinearLayout>
 
             </RelativeLayout>
 
-            <RelativeLayout
-                android:layout_weight="0.4"
+            <LinearLayout
+                android:layout_gravity="left"
+                android:background="#4B3829"
                 android:layout_width="match_parent"
-                android:layout_height="0dp">
+                android:layout_height="match_parent"
+                android:gravity="center">
 
                 <TextView
-                    android:paddingBottom="15dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:text="Liked"
-                    android:textColor="#ffffff"
-                    android:textStyle="normal"
-                    android:textSize="18dp"/>
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hello D33r"
+                    android:textColor="@color/white"/>
 
-            </RelativeLayout>
+            </LinearLayout>
 
-        </LinearLayout>
+        </androidx.drawerlayout.widget.DrawerLayout>
 
-        <LinearLayout
-            android:layout_weight="0.25"
-            android:layout_width="0dp"
-            android:background="#27252A"
-            android:layout_height="match_parent"
-            android:weightSum="1"
-            android:orientation="vertical">
-
-            <RelativeLayout
-                android:layout_weight="0.6"
-                android:layout_width="match_parent"
-                android:layout_height="0dp">
-
-                <ImageView
-                    android:paddingTop="15dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/ic_baseline_add_24"/>
-
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_weight="0.4"
-                android:layout_width="match_parent"
-                android:layout_height="0dp">
-
-                <TextView
-                    android:paddingBottom="15dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:text="Add"
-                    android:textColor="#ffffff"
-                    android:textStyle="normal"
-                    android:textSize="18dp"/>
-
-            </RelativeLayout>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_weight="0.25"
-            android:layout_width="0dp"
-            android:background="#27252A"
-            android:layout_height="match_parent"
-            android:weightSum="1"
-            android:orientation="vertical">
-
-            <RelativeLayout
-                android:layout_weight="0.6"
-                android:layout_width="match_parent"
-                android:layout_height="0dp">
-
-                <ImageView
-                    android:paddingTop="15dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/ic_baseline_search_24"/>
-
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_weight="0.4"
-                android:layout_width="match_parent"
-                android:layout_height="0dp">
-
-                <TextView
-                    android:paddingBottom="15dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:text="Search"
-                    android:textColor="#ffffff"
-                    android:textStyle="normal"
-                    android:textSize="18dp"/>
-
-            </RelativeLayout>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_weight="0.25"
-            android:layout_width="0dp"
-            android:background="#27252A"
-            android:layout_height="match_parent"
-            android:weightSum="1"
-            android:orientation="vertical">
-
-            <RelativeLayout
-                android:layout_weight="0.6"
-                android:layout_width="match_parent"
-                android:layout_height="0dp">
-
-                <ImageView
-                    android:paddingTop="15dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/ic_outline_watch_later_24"/>
-
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_weight="0.4"
-                android:layout_width="match_parent"
-                android:layout_height="0dp">
-
-                <TextView
-                    android:paddingBottom="15dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:text="Listen Later"
-                    android:textColor="#ffffff"
-                    android:textStyle="normal"
-                    android:textSize="18dp"/>
-
-            </RelativeLayout>
-
-        </LinearLayout>
-
-    </LinearLayout>
-
-</LinearLayout>
+</RelativeLayout>
