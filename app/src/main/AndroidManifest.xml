@@ -26,6 +26,7 @@
         <activity android:name=".SignIn"></activity>
         <activity android:name=".DashBoard"></activity>
         <activity android:name=".Activity_test"></activity>
+
     </application>
 
 </manifest>
